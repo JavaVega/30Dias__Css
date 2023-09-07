@@ -1,0 +1,79 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+    background-color: aqua;
+    margin: 0;
+}
+h1{
+    margin: 0;
+}
+.fondo{
+    background-color: white;
+    height: 75rem;
+    margin: 0 10rem;
+}
+.logotipo{
+    width: 9rem;
+    height: 9rem;
+    margin-top: 1rem;
+}
+.navegacion{
+    background-color:beige;
+    text-align: center;
+}
+.navegacion{
+    background-color:beige;
+    text-align: center;
+}
+@media (min-width: 768px) {
+    .navegacion{   
+        display: flex;
+        justify-content: space-between;
+    }
+    .navegacion__logotipo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logotipo{
+        margin-top: 0;
+    }
+    .nav__principal{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navegacion{
+        background-color:beige;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navegacion__logotipo{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav__enlace{
+        margin-right: 2rem;
+      }
+} 
+.nav__enlace{
+    text-decoration: none;
+    color: black;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    padding: 1rem;
+    font-family: cursive;
+}
+.nav__enlace:hover{
+    background-color: aqua;
+}
+.footer p{
+    font-family: cursive;
+    text-align: center;
+    margin-top: 1rem 0 0 0;
+}
