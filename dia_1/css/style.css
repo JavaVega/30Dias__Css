@@ -10,6 +10,13 @@ body{
 h1{
     margin: 0;
 }
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: cursive;
+
+}
 .fondo{
     background-color: white;
     height: 75rem;
@@ -60,14 +67,10 @@ h1{
       }
 } 
 .nav__enlace{
-    text-decoration: none;
-    color: black;
     font-size: 4rem;
-    font-weight: bold;
     text-align: center;
     display: block;
     padding: 1rem;
-    font-family: cursive;
 }
 .nav__enlace:hover{
     background-color: aqua;
