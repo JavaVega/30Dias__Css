@@ -1,0 +1,107 @@
+html{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color:blanchedalmond;
+}
+h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;   
+}
+
+header, footer{
+    text-align: center;
+    font-family: cursive;
+    font-weight: 700;  
+}
+.no-margin{
+    margin: 0;
+}
+
+.capibara__mayor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (min-width: 768px) {
+  
+    .capibara__mayor {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        column-gap: 2rem;
+    }
+} 
+
+
+.capibara__timido{
+    background-image:url(../img/capibara.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 1rem;
+
+}
+.capibara__cafetero{
+    background-image: url(../img/capibara_cafetero.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 1rem;
+}
+.capibara__explorador{
+    background-image: url(../img/capibara_explorador.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 1rem;
+}
+.capibara__graduado{
+    background-image: url(../img/capibara_graduado.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 1rem;
+}
+.capibara__moderno{
+    background-image: url(../img/capibara_moderno.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 1rem;
+}
+.capibara__riquisimo{
+    background-image: url(../img/capibara_riquisimo.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 1rem;
+}
+
+.capibara__timido:hover,
+.capibara__riquisimo:hover,
+.capibara__explorador:hover,
+.capibara__moderno:hover,
+.capibara__cafetero:hover,
+.capibara__graduado:hover{
+    background-position-y: -3rem;
+}
+
